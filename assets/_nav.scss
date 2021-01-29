@@ -1,0 +1,19 @@
+.nav{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: $primary-color;
+  .nav__logo{
+    font-family: $secondary-font;
+    color: $tertiary-color;
+    margin: 10px;
+    font-size: $logo-size;
+  }
+  .nav__button{
+    margin: 10px;
+    padding: 5px 20px;
+  }
+} 
